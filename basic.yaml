@@ -1,0 +1,12 @@
+schema: olm.package
+name: ack-s3-controller
+defaultChannel: stable
+---
+entries:
+  - name: ack-s3-controller.v1.0.3
+name: stable
+package: ack-s3-controller
+schema: olm.channel
+---
+schema: olm.bundle
+image: quay.io/lgallett/s3-bundle:latest
